@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyBrowser.Core", "ToyBrowser.Core\ToyBrowser.Core.csproj", "{7FAEB6AF-8779-4052-8235-C57D5B1B680E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyBrowser.Driver", "ToyBrowser.Driver\ToyBrowser.Driver.csproj", "{A3FA5330-3A6F-4130-8C3A-73B18C06815A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7FAEB6AF-8779-4052-8235-C57D5B1B680E} = {7FAEB6AF-8779-4052-8235-C57D5B1B680E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
